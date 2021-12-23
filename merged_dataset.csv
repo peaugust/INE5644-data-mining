@@ -32,21 +32,27 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 41,
+      "execution_count": 1,
       "id": "6033ad94",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "6033ad94",
-        "outputId": "2b0237ac-6055-463f-f186-978c19b4b05c"
+        "outputId": "615428bf-fba6-4f87-f478-4c1c8be9c39c"
       },
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "fatal: destination path 'INE5644-data-mining' already exists and is not an empty directory.\n"
+            "Cloning into 'INE5644-data-mining'...\n",
+            "remote: Enumerating objects: 59, done.\u001b[K\n",
+            "remote: Counting objects: 100% (37/37), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (30/30), done.\u001b[K\n",
+            "remote: Total 59 (delta 19), reused 21 (delta 7), pack-reused 22\u001b[K\n",
+            "Unpacking objects: 100% (59/59), done.\n",
+            "Checking out files: 100% (26/26), done.\n"
           ]
         }
       ],
@@ -84,14 +90,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 62,
+      "execution_count": 6,
       "id": "7ae6c001",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "7ae6c001",
-        "outputId": "2516ee31-f17b-42ff-addb-c0fd5f8ac6cc"
+        "outputId": "7c821602-c7fa-483e-a738-2b60e5a27412"
       },
       "outputs": [
         {
@@ -120,7 +126,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 63,
+      "execution_count": 7,
       "id": "aefdc3fc",
       "metadata": {
         "colab": {
@@ -128,7 +134,7 @@
           "height": 0
         },
         "id": "aefdc3fc",
-        "outputId": "5ba05452-9355-410d-8d94-7e2e064e6912"
+        "outputId": "41052f76-a9ca-4c14-a18a-5c2a83e6ef15"
       },
       "outputs": [
         {
@@ -143,7 +149,7 @@
           "data": {
             "text/html": [
               "\n",
-              "  <div id=\"df-aee77bc8-c08f-4458-8ab5-b6d035c29fe0\">\n",
+              "  <div id=\"df-b084b7a8-e0b0-43ea-87a0-d8ace9071eb0\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -251,7 +257,7 @@
               "</table>\n",
               "<p>99441 rows × 4 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-aee77bc8-c08f-4458-8ab5-b6d035c29fe0')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-b084b7a8-e0b0-43ea-87a0-d8ace9071eb0')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -302,12 +308,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-aee77bc8-c08f-4458-8ab5-b6d035c29fe0 button.colab-df-convert');\n",
+              "          document.querySelector('#df-b084b7a8-e0b0-43ea-87a0-d8ace9071eb0 button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-aee77bc8-c08f-4458-8ab5-b6d035c29fe0');\n",
+              "          const element = document.querySelector('#df-b084b7a8-e0b0-43ea-87a0-d8ace9071eb0');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -359,7 +365,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 63
+          "execution_count": 7
         }
       ],
       "source": [
@@ -384,7 +390,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 64,
+      "execution_count": 8,
       "id": "b9073518",
       "metadata": {
         "id": "b9073518"
@@ -400,7 +406,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 65,
+      "execution_count": 9,
       "id": "b09440d3",
       "metadata": {
         "colab": {
@@ -408,7 +414,7 @@
           "height": 0
         },
         "id": "b09440d3",
-        "outputId": "24e7639d-7832-41e4-f319-1e26eb3ab2ef"
+        "outputId": "eae42b00-09bf-4f1e-d964-5c55e060ebe2"
       },
       "outputs": [
         {
@@ -423,7 +429,7 @@
           "data": {
             "text/html": [
               "\n",
-              "  <div id=\"df-b71aa0aa-5a6e-40f5-9cb6-87b26abe3731\">\n",
+              "  <div id=\"df-3d39b34f-93ad-4fe9-9e33-5f6d22d22ba1\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -519,7 +525,7 @@
               "</table>\n",
               "<p>19023 rows × 3 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-b71aa0aa-5a6e-40f5-9cb6-87b26abe3731')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-3d39b34f-93ad-4fe9-9e33-5f6d22d22ba1')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -570,12 +576,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-b71aa0aa-5a6e-40f5-9cb6-87b26abe3731 button.colab-df-convert');\n",
+              "          document.querySelector('#df-3d39b34f-93ad-4fe9-9e33-5f6d22d22ba1 button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-b71aa0aa-5a6e-40f5-9cb6-87b26abe3731');\n",
+              "          const element = document.querySelector('#df-3d39b34f-93ad-4fe9-9e33-5f6d22d22ba1');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -627,7 +633,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 65
+          "execution_count": 9
         }
       ],
       "source": [
@@ -649,14 +655,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 66,
+      "execution_count": 10,
       "id": "8c5ff34f",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "8c5ff34f",
-        "outputId": "db899ea8-4b20-4143-9312-5d237142de3c"
+        "outputId": "3a4df229-d443-4085-bd05-559ff2de6594"
       },
       "outputs": [
         {
@@ -687,7 +693,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 67,
+      "execution_count": 11,
       "id": "7e991fee",
       "metadata": {
         "colab": {
@@ -695,7 +701,7 @@
           "height": 0
         },
         "id": "7e991fee",
-        "outputId": "00a23e20-101c-400b-ed3b-df35dcdfc041"
+        "outputId": "673b1fea-377d-4c77-e840-15dbbd81e1ce"
       },
       "outputs": [
         {
@@ -710,7 +716,7 @@
           "data": {
             "text/html": [
               "\n",
-              "  <div id=\"df-7e2c62a3-5c5d-4abb-9376-2eb778facfc3\">\n",
+              "  <div id=\"df-041ad590-a38a-47f2-b7df-3b2f8c7fa84f\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -940,7 +946,7 @@
               "  </tbody>\n",
               "</table>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-7e2c62a3-5c5d-4abb-9376-2eb778facfc3')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-041ad590-a38a-47f2-b7df-3b2f8c7fa84f')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -991,12 +997,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-7e2c62a3-5c5d-4abb-9376-2eb778facfc3 button.colab-df-convert');\n",
+              "          document.querySelector('#df-041ad590-a38a-47f2-b7df-3b2f8c7fa84f button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-7e2c62a3-5c5d-4abb-9376-2eb778facfc3');\n",
+              "          const element = document.querySelector('#df-041ad590-a38a-47f2-b7df-3b2f8c7fa84f');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -1068,7 +1074,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 67
+          "execution_count": 11
         }
       ],
       "source": [
@@ -1090,14 +1096,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 68,
+      "execution_count": 12,
       "id": "cd6dc2f6",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "cd6dc2f6",
-        "outputId": "8361f06f-f1d9-4e8d-b2ba-3415ffb7c359"
+        "outputId": "0e62dd1e-f1c7-4d13-b816-16ddde357efa"
       },
       "outputs": [
         {
@@ -1129,14 +1135,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 69,
+      "execution_count": 13,
       "id": "7fb1a10d",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "7fb1a10d",
-        "outputId": "a7e11cb6-9b78-4f9c-b5d0-30724e4298a7"
+        "outputId": "775abb2f-82de-4615-8ec5-8f24c8ff3d1c"
       },
       "outputs": [
         {
@@ -1188,14 +1194,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 70,
+      "execution_count": 14,
       "id": "0de52d1d",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "0de52d1d",
-        "outputId": "ad3ed7b2-03f5-4077-fd89-ac7ece08466d"
+        "outputId": "ed219af4-cb03-4a81-baf1-dbbccacb617b"
       },
       "outputs": [
         {
@@ -1227,15 +1233,15 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 71,
+      "execution_count": 15,
       "id": "faa2ddc3",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 505
+          "height": 0
         },
         "id": "faa2ddc3",
-        "outputId": "fd2fdb58-6710-4a19-8154-3dd6485fc024"
+        "outputId": "382448d5-3ec4-4383-8299-0b317a29d4e0"
       },
       "outputs": [
         {
@@ -1250,7 +1256,7 @@
           "data": {
             "text/html": [
               "\n",
-              "  <div id=\"df-4cbeb12d-31e6-41d9-a2bf-f89f73d8a978\">\n",
+              "  <div id=\"df-aa8f775c-c77b-4ccb-894d-c867ed253f66\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -1406,7 +1412,7 @@
               "</table>\n",
               "<p>99441 rows × 8 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-4cbeb12d-31e6-41d9-a2bf-f89f73d8a978')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-aa8f775c-c77b-4ccb-894d-c867ed253f66')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -1457,12 +1463,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-4cbeb12d-31e6-41d9-a2bf-f89f73d8a978 button.colab-df-convert');\n",
+              "          document.querySelector('#df-aa8f775c-c77b-4ccb-894d-c867ed253f66 button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-4cbeb12d-31e6-41d9-a2bf-f89f73d8a978');\n",
+              "          const element = document.querySelector('#df-aa8f775c-c77b-4ccb-894d-c867ed253f66');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -1540,7 +1546,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 71
+          "execution_count": 15
         }
       ],
       "source": [
@@ -1562,7 +1568,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 72,
+      "execution_count": 16,
       "id": "a99aae32",
       "metadata": {
         "colab": {
@@ -1570,7 +1576,7 @@
           "height": 0
         },
         "id": "a99aae32",
-        "outputId": "86de16ab-7b80-436b-e6d8-7a7075c11c57"
+        "outputId": "e718c4e9-f1ea-4b92-bd20-10658c84557d"
       },
       "outputs": [
         {
@@ -1613,7 +1619,7 @@
           "data": {
             "text/html": [
               "\n",
-              "  <div id=\"df-98929f98-64b2-4430-9257-66384d8d3415\">\n",
+              "  <div id=\"df-068b9495-a14e-4703-b241-cc7d8b328814\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -1745,7 +1751,7 @@
               "</table>\n",
               "<p>32951 rows × 6 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-98929f98-64b2-4430-9257-66384d8d3415')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-068b9495-a14e-4703-b241-cc7d8b328814')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -1796,12 +1802,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-98929f98-64b2-4430-9257-66384d8d3415 button.colab-df-convert');\n",
+              "          document.querySelector('#df-068b9495-a14e-4703-b241-cc7d8b328814 button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-98929f98-64b2-4430-9257-66384d8d3415');\n",
+              "          const element = document.querySelector('#df-068b9495-a14e-4703-b241-cc7d8b328814');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -1866,7 +1872,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 72
+          "execution_count": 16
         }
       ],
       "source": [
@@ -1879,7 +1885,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 73,
+      "execution_count": 17,
       "id": "5f870b82",
       "metadata": {
         "colab": {
@@ -1887,7 +1893,7 @@
           "height": 0
         },
         "id": "5f870b82",
-        "outputId": "8ba93bb9-ea48-440c-ff48-1ebba3acaa59"
+        "outputId": "e187d6d9-0005-441c-f3ac-7eb40e73cc3c"
       },
       "outputs": [
         {
@@ -1902,7 +1908,7 @@
           "data": {
             "text/html": [
               "\n",
-              "  <div id=\"df-5f80c5ed-19d3-45ab-b0d6-7b18fbf72081\">\n",
+              "  <div id=\"df-acd1833d-fa7f-488d-8dcc-20819550e468\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -2034,7 +2040,7 @@
               "</table>\n",
               "<p>32951 rows × 6 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-5f80c5ed-19d3-45ab-b0d6-7b18fbf72081')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-acd1833d-fa7f-488d-8dcc-20819550e468')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -2085,12 +2091,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-5f80c5ed-19d3-45ab-b0d6-7b18fbf72081 button.colab-df-convert');\n",
+              "          document.querySelector('#df-acd1833d-fa7f-488d-8dcc-20819550e468 button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-5f80c5ed-19d3-45ab-b0d6-7b18fbf72081');\n",
+              "          const element = document.querySelector('#df-acd1833d-fa7f-488d-8dcc-20819550e468');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -2155,7 +2161,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 73
+          "execution_count": 17
         }
       ],
       "source": [
@@ -2177,14 +2183,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 74,
+      "execution_count": 18,
       "id": "0f401475",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "0f401475",
-        "outputId": "71d9d6aa-798b-4a6c-b1fc-8be64f267569"
+        "outputId": "9ba51000-0da3-4ec4-ca53-a8e3bf3d8cee"
       },
       "outputs": [
         {
@@ -2212,7 +2218,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 75,
+      "execution_count": 19,
       "id": "fb214b62",
       "metadata": {
         "colab": {
@@ -2220,7 +2226,7 @@
           "height": 0
         },
         "id": "fb214b62",
-        "outputId": "f1b9dc8c-dccf-4728-ac86-1f202d85497b"
+        "outputId": "aa63a159-607d-47f0-c07a-6db3d4310339"
       },
       "outputs": [
         {
@@ -2235,7 +2241,7 @@
           "data": {
             "text/html": [
               "\n",
-              "  <div id=\"df-1202782f-2f6d-4ba6-828b-d532ed766a8a\">\n",
+              "  <div id=\"df-9c6ec20d-5d54-42da-8e41-85395ec22289\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -2343,7 +2349,7 @@
               "</table>\n",
               "<p>3095 rows × 4 columns</p>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-1202782f-2f6d-4ba6-828b-d532ed766a8a')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-9c6ec20d-5d54-42da-8e41-85395ec22289')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -2394,12 +2400,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-1202782f-2f6d-4ba6-828b-d532ed766a8a button.colab-df-convert');\n",
+              "          document.querySelector('#df-9c6ec20d-5d54-42da-8e41-85395ec22289 button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-1202782f-2f6d-4ba6-828b-d532ed766a8a');\n",
+              "          const element = document.querySelector('#df-9c6ec20d-5d54-42da-8e41-85395ec22289');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -2451,7 +2457,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 75
+          "execution_count": 19
         }
       ],
       "source": [
@@ -2473,14 +2479,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 76,
+      "execution_count": 20,
       "id": "ecbbf1b8",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "ecbbf1b8",
-        "outputId": "beaf90cf-a9d5-4620-ab7e-5379913c5282"
+        "outputId": "1cd52127-5b39-4a02-dde2-54197b67de6f"
       },
       "outputs": [
         {
@@ -2506,7 +2512,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 77,
+      "execution_count": 21,
       "id": "9554a27e",
       "metadata": {
         "colab": {
@@ -2514,7 +2520,7 @@
           "height": 0
         },
         "id": "9554a27e",
-        "outputId": "9e0bc910-c8a2-4a4a-bd54-d4291ada3024"
+        "outputId": "ae9c6fe0-611d-4671-fe44-b831a96c468c"
       },
       "outputs": [
         {
@@ -2522,7 +2528,7 @@
           "data": {
             "text/html": [
               "\n",
-              "  <div id=\"df-68ae51c3-0e23-43d5-bc17-e677154cf5c5\">\n",
+              "  <div id=\"df-e36c8465-1672-4437-8e49-f977100afe3a\">\n",
               "    <div class=\"colab-df-container\">\n",
               "      <div>\n",
               "<style scoped>\n",
@@ -2905,7 +2911,7 @@
               "  </tbody>\n",
               "</table>\n",
               "</div>\n",
-              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-68ae51c3-0e23-43d5-bc17-e677154cf5c5')\"\n",
+              "      <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-e36c8465-1672-4437-8e49-f977100afe3a')\"\n",
               "              title=\"Convert this dataframe to an interactive table.\"\n",
               "              style=\"display:none;\">\n",
               "        \n",
@@ -2956,12 +2962,12 @@
               "\n",
               "      <script>\n",
               "        const buttonEl =\n",
-              "          document.querySelector('#df-68ae51c3-0e23-43d5-bc17-e677154cf5c5 button.colab-df-convert');\n",
+              "          document.querySelector('#df-e36c8465-1672-4437-8e49-f977100afe3a button.colab-df-convert');\n",
               "        buttonEl.style.display =\n",
               "          google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "        async function convertToInteractive(key) {\n",
-              "          const element = document.querySelector('#df-68ae51c3-0e23-43d5-bc17-e677154cf5c5');\n",
+              "          const element = document.querySelector('#df-e36c8465-1672-4437-8e49-f977100afe3a');\n",
               "          const dataTable =\n",
               "            await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                     [key], {});\n",
@@ -3131,7 +3137,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 77
+          "execution_count": 21
         }
       ],
       "source": [
@@ -3159,26 +3165,26 @@
         "merged = pd.merge(left=merged, right=order_reviews_cleaned, how='inner', left_on='order_id', right_on='order_id')\n",
         "\n",
         "print(merged)\n",
-        "merged.to_csv('merged_dataset.csv')\n",
+        "merged.to_csv('merged_dataset.csv', encoding='utf-8')\n",
         "\n",
         "# Liberando memória\n",
-        "del customers\n",
-        "del orders\n",
-        "del order_items\n",
-        "del products\n",
-        "del product_category_name_translation\n",
-        "del sellers\n",
-        "del order_reviews_cleaned"
+        "# del customers\n",
+        "# del orders\n",
+        "# del order_items\n",
+        "# del products\n",
+        "# del product_category_name_translation\n",
+        "# del sellers\n",
+        "# del order_reviews_cleaned"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "LE52IUWKXEUP",
-        "outputId": "d546bcce-c074-4ea2-da3e-68f4ae41f28d"
+        "outputId": "e5ddb8a8-3d7b-4936-8a01-d19d13493514"
       },
       "id": "LE52IUWKXEUP",
-      "execution_count": 80,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "stream",
@@ -3354,6 +3360,7 @@
     "colab": {
       "name": "Data-2.ipynb",
       "provenance": [],
+      "collapsed_sections": [],
       "include_colab_link": true
     },
     "accelerator": "GPU"
